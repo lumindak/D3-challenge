@@ -200,7 +200,7 @@ function updateToolTip(xaxis,yaxis, circlesGroup) {
 ////////////////////////////////////////////////////////////////////////////////////////
 
 //Read the data file - need to run the local server
-d3.csv("./D3_data_journalism/data/data.csv").then(function(healthData,err) {
+d3.csv("./assets/data/data.csv").then(function(healthData,err) {
   if (err) throw err;
  // Format the data
 healthData.forEach(function(data) {
